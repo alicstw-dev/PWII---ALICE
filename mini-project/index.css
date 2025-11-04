@@ -1,0 +1,134 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  font-family: "Poppins", Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(135deg, #f6f0ff, #e7d7ff);
+}
+
+.container {
+  width: 400px;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+  padding: 2rem 3rem;
+  background-color: #ffffffcc;
+  border-radius: 12px;
+  box-shadow: 0 8px 18px rgba(140, 85, 255, 0.2);
+  backdrop-filter: blur(8px);
+}
+
+.container h1 {
+  text-align: center;
+  font-size: 1.8rem;
+  color: #7b3ef3;
+  letter-spacing: 0.5px;
+}
+
+.entrada {
+  width: 100%;
+}
+
+.entrada form {
+  display: flex;
+  width: 100%;
+  gap: 1rem;
+}
+
+.entrada form > * {
+  padding: 0.6rem;
+  font-size: 1rem;
+}
+
+.entrada input {
+  flex: 1;
+  border: none;
+  border-bottom: 2px solid #b28dfc;
+  outline: none;
+  background-color: transparent;
+  color: #4b0082;
+  transition: 0.3s;
+}
+
+.entrada input:focus {
+  border-bottom: 2px solid #8a2be2;
+}
+
+.entrada button {
+  background-color: #a47cf2;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.entrada button:hover {
+  background-color: #925ef7;
+}
+
+#listaTarefas {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+}
+
+#listaTarefas button {
+  all: unset;
+}
+
+#listaTarefas li {
+  cursor: pointer;
+  display: flex;
+  background-color: #faf6ff;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(155, 89, 182, 0.1);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#listaTarefas li:hover {
+  background-color: #efe6ff;
+  transform: scale(1.01);
+}
+
+#listaTarefas li span {
+  flex: 1;
+  padding: 12px;
+  color: #4b0082;
+}
+
+#listaTarefas li i {
+  padding: 12px;
+  border-radius: 6px;
+  color: #8a2be2;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#listaTarefas li i:hover {
+  background-color: #b76cff;
+  color: #ffffff;
+}
+
+span.concluida {
+  text-decoration: line-through;
+  color: #a89cc8;
+}
+
+#campoEntrada.input-erro {
+  border-bottom: 2px solid #e6739f;
+  background-color: #ffe6f0;
+}
