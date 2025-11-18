@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Lista de Filmes Favoritos</title>
+  <style>
+    ul { list-style: none; padding: 0; }
+    li { margin: 4px 0; display: flex; justify-content: space-between; }
+    .hidden { display: none; }
+  </style>
+</head>
+<body>
+
+  <h2>Filmes Favoritos</h2>
+
+  <input id="input-filme" type="text" placeholder="Nome do filme">
+  <button id="btn-add">Adicionar</button>
+
+  <br><br>
+
+  <input id="filtro" type="text" placeholder="Filtrar filmes...">
+
+  <ul id="lista"></ul>
+
+<script>
+  const filmes = [];
+
+  const input = document.querySelector('#input-filme');
+  const lista = document.querySelector('#lista');
+  const btnAdd = document.querySelector('#btn-add');
+  const filtro = document.querySelector('#filtro');
+
+  // Função de delegação genérica
+  function addDelegatedEventListener(parent, type, selector, handler) {
+    parent.addEventListener(type, (event) => {
+      const target = event.target.closest(selector);
+      if (target && parent.contains(target)) handler(event, target);
+    });
+  }
+
+  // Adicionar filme
+  btnAdd.addEventListener('click', () => {
+    const nome = input.value.trim();
+    if (!nome) return;
+
+    filmes.push(nome);
+
+    const li = document.createElement('li');
+    li.innerHTML = `${nome} <button class="remove">remover</button>`;
+    lista.appendChild(li);
+
+    input.value = '';
+    input.focus();
+  });
+
+  // Delegação de evento para remover
+  addDelegatedEventListener(lista, 'click', '.remove', (e, btn) => {
+    const li = btn.parentElement;
+    const nome = li.firstChild.textContent.trim();
+
+    const index = filmes.indexOf(nome);
+    if (index !== -1) filmes.splice(index, 1); // remove da matriz
+
+    li.remove(); // remove do DOM
+  });
+
+  // Filtrar lista
+  filtro.addEventListener('input', () => {
+    const texto = filtro.value.toLowerCase();
+    const filtrados = filmes.filter(f => f.toLowerCase().includes(texto));
+
+    // Atualiza visualmente
+    Array.from(lista.children).forEach(li => {
+      const nome = li.firstChild.textContent.toLowerCase();
+      li.classList.toggle('hidden', !nome.includes(texto));
+    });
+  });
+</script>
+
+</body>
+</html>
