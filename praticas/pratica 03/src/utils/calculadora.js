@@ -1,5 +1,5 @@
 export function calcularMedia(array) {
-    if (!Array.isArray(array) || array.length === 0) return 0;
+    if (array.length === 0) return 0;
     return array.reduce((acc, n) => acc + n, 0) / array.length;
 }
 

@@ -1,5 +1,5 @@
-import { calcularMedia, VALOR_PI } from './utils/calculadora.js';
-import buscarDados from './services/dados.js';
+import { calcularMedia, VALOR_PI } from './src/utils/calculadora.js';
+import buscarDados from './src/services/dados.js';
 
 async function main() {
     const dados = await buscarDados();
