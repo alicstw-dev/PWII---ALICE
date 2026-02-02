@@ -1,0 +1,15 @@
+import { useState } from "react";
+import "./App.css";
+import FormIMC from "./assets/components/FoemIMC";
+
+export default function App() {
+
+
+  return (
+    <>
+     <FormIMC title= {"Saiba seu IMC:"}/>
+     <FormIMC title= {"Calcule seu IMC:"}/>
+
+    </>
+  );
+}
