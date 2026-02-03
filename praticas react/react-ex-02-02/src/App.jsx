@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./App.css";
-import FormIMC from "./assets/components/FoemIMC";
+import FormIMC from "./assets/components/FormIMC";
 
 export default function App() {
 
