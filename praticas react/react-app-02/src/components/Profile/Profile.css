@@ -1,0 +1,27 @@
+.profile {
+  background-color: #310240;
+  color: white;
+  padding: 40px 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.profile img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid white;
+}
+
+.profile h1 {
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.profile p {
+  max-width: 500px;
+  font-size: 14px;
+}
