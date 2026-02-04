@@ -2,7 +2,6 @@
   background-color: #310240;
   color: white;
   padding: 40px 20px;
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -10,18 +9,31 @@
 }
 
 .profile img {
+
   width: 120px;
+
   height: 120px;
+
   border-radius: 50%;
+
   border: 3px solid white;
+
+}
+
+.profile-text {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
 }
 
 .profile h1 {
   font-size: 24px;
   margin-bottom: 8px;
+  font-weight: bold;
 }
 
 .profile p {
   max-width: 500px;
   font-size: 14px;
+  line-height: 1.5;
 }
