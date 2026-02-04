@@ -1,57 +1,79 @@
-📌 Frameworks utilizados
-
-React: utilizado para o desenvolvimento da aplicação principal, com foco em componentização e gerenciamento de estado.
-
-Vue.js: utilizado para implementar a mesma aplicação de forma comparativa.
-
-▶️ Como rodar a aplicação localmente
-
-Clone o repositório:
-
-git clone <https://github.com/alicstw-dev/PWII---ALICE.git>
 
 
-Acesse a pasta do projeto:
+```markdown
+# ⚛️ React vs Vue.js 💚
 
+Este projeto foi desenvolvido com o objetivo de estudar e comparar o desenvolvimento de aplicações web utilizando duas das tecnologias mais populares do mercado: **React** e **Vue.js**.
+
+## 📌 Frameworks Utilizados
+
+* **React:** Utilizado para o desenvolvimento da aplicação principal, com foco em componentização e gerenciamento de estado.
+* **Vue.js:** Utilizado para implementar a mesma aplicação de forma comparativa, explorando sua sintaxe e ciclo de vida.
+
+---
+
+## ▶️ Como rodar a aplicação localmente
+
+Siga os passos abaixo para baixar e executar o projeto na sua máquina:
+
+1. **Clone o repositório:**
+   ```bash
+   git clone <link-do-repositorio>
+
+```
+
+2. **Acesse a pasta do projeto:**
+```bash
 cd nome-do-projeto
 
+```
 
-Instale as dependências:
 
+3. **Instale as dependências:**
+```bash
 npm install
 
+```
 
-Execute o projeto:
 
+4. **Execute o projeto:**
+```bash
 npm run dev
 
+```
 
-Acesse:
 
-http://localhost:5173
+5. **Acesse no navegador:**
+Abra o link [http://localhost:5173](https://www.google.com/search?q=http://localhost:5173)
 
-⚠️ Principais dificuldades
+---
 
-Organização da estrutura de pastas.
+## ⚠️ Principais Dificuldades
 
-Correção de imports.
+Durante o desenvolvimento, os principais desafios enfrentados foram:
 
-Aplicação correta do CSS nos componentes.
+* 📂 Organização da estrutura de pastas.
+* 🔗 Correção de caminhos de imports (path resolution).
+* 🎨 Aplicação correta do CSS escopado nos componentes.
+* 📐 Ajustes visuais finos para atender ao layout proposto.
 
-Ajustes visuais para atender ao layout proposto.
+---
 
-🔍 Semelhanças e diferenças
+## 🔍 Semelhanças e Diferenças
 
-Semelhanças:
+Abaixo, um resumo comparativo notado durante a implementação:
 
-Uso de componentes reutilizáveis.
+### 🤝 Semelhanças
 
-Interfaces dinâmicas com JavaScript.
+* Ambos utilizam **componentes reutilizáveis** para construir a interface.
+* Criação de interfaces dinâmicas e reativas com **JavaScript**.
 
-Diferenças:
+### ⚡ Diferenças
 
-React utiliza JSX e oferece maior liberdade.
+* **React:** Utiliza **JSX** (JavaScript XML), o que oferece maior liberdade de programação, mas mistura lógica e marcação.
+* **Vue.js:** Separa claramente **Template (HTML), Script (Lógica) e Style (CSS)**, o que facilita a curva de aprendizado inicial.
+* **Gerenciamento de Estado:** É realizado de formas distintas; o React foca na imutabilidade e hooks, enquanto o Vue utiliza um sistema de reatividade mutável (proxies).
 
-Vue separa template, lógica e estilo, facilitando o início.
+```
 
-Gerenciamento de estado é feito de formas diferentes em cada framework.
+```
