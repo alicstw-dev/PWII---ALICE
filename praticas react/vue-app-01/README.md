@@ -1,5 +1,57 @@
-# Vue 3 + Vite
+📌 Frameworks utilizados
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+React: utilizado para o desenvolvimento da aplicação principal, com foco em componentização e gerenciamento de estado.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+Vue.js: utilizado para implementar a mesma aplicação de forma comparativa.
+
+▶️ Como rodar a aplicação localmente
+
+Clone o repositório:
+
+git clone <https://github.com/alicstw-dev/PWII---ALICE.git>
+
+
+Acesse a pasta do projeto:
+
+cd nome-do-projeto
+
+
+Instale as dependências:
+
+npm install
+
+
+Execute o projeto:
+
+npm run dev
+
+
+Acesse:
+
+http://localhost:5173
+
+⚠️ Principais dificuldades
+
+Organização da estrutura de pastas.
+
+Correção de imports.
+
+Aplicação correta do CSS nos componentes.
+
+Ajustes visuais para atender ao layout proposto.
+
+🔍 Semelhanças e diferenças
+
+Semelhanças:
+
+Uso de componentes reutilizáveis.
+
+Interfaces dinâmicas com JavaScript.
+
+Diferenças:
+
+React utiliza JSX e oferece maior liberdade.
+
+Vue separa template, lógica e estilo, facilitando o início.
+
+Gerenciamento de estado é feito de formas diferentes em cada framework.

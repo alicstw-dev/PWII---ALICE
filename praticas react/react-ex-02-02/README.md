@@ -1,16 +1,57 @@
-# React + Vite
+📌 Frameworks utilizados
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+React: utilizado para o desenvolvimento da aplicação principal, com foco em componentização e gerenciamento de estado.
 
-Currently, two official plugins are available:
+Vue.js: utilizado para implementar a mesma aplicação de forma comparativa.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+▶️ Como rodar a aplicação localmente
 
-## React Compiler
+Clone o repositório:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+git clone <https://github.com/alicstw-dev/PWII---ALICE.git>
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Acesse a pasta do projeto:
+
+cd nome-do-projeto
+
+
+Instale as dependências:
+
+npm install
+
+
+Execute o projeto:
+
+npm run dev
+
+
+Acesse:
+
+http://localhost:5173
+
+⚠️ Principais dificuldades
+
+Organização da estrutura de pastas.
+
+Correção de imports.
+
+Aplicação correta do CSS nos componentes.
+
+Ajustes visuais para atender ao layout proposto.
+
+🔍 Semelhanças e diferenças
+
+Semelhanças:
+
+Uso de componentes reutilizáveis.
+
+Interfaces dinâmicas com JavaScript.
+
+Diferenças:
+
+React utiliza JSX e oferece maior liberdade.
+
+Vue separa template, lógica e estilo, facilitando o início.
+
+Gerenciamento de estado é feito de formas diferentes em cada framework.
