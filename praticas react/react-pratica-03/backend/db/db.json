@@ -57,7 +57,7 @@
       }
     },
     {
-      "id": "8d4c",
+      "id": "5",
       "titulo": "Corolla",
       "descricao": "Semi-Novo",
       "preco": 150000,
@@ -68,6 +68,20 @@
         "nome": "Alice",
         "telefone": "(88) 99919-0403",
         "email": "alice.lima08@aluno.ifce.edu.br"
+      }
+    },
+    {
+      "id": "20af",
+      "titulo": "Jeep Compass",
+      "descricao": "O Jeep Compass 2017 é um SUV médio valorizado pelo conforto, dirigibilidade e bom espaço interno.",
+      "preco": 98000,
+      "ano": 2017,
+      "quilometragem": 50000,
+      "imagemUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnIvFd79FaX89psSCO37TXh8oIN5AvI92zYQ&s",
+      "vendedor": {
+        "nome": "Vaniele",
+        "telefone": "88 996532648",
+        "email": "vaniele@gmail.com"
       }
     }
   ]

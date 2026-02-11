@@ -6,23 +6,30 @@ import "./index.css";
 import App from "./App.jsx";
 import HomePage from "./pages/HomePage.jsx";
 import CadastroPage from "./pages/CadastroPage.jsx";
+import DetalhePage from "./pages/DetalhePage.jsx";
+
 
 const router = createBrowserRouter([
   {
     path: "/",
-    Component: App,
+    element: <App />,
     children: [
       {
         index: true,
-        Component: HomePage,
+        element: <HomePage />,
       },
       {
         path: "cadastro",
-        Component: CadastroPage,
+        element: <CadastroPage />,
+      },
+      {
+        path: "anuncio/:id",
+        element: <DetalhePage />,
       },
     ],
   },
 ]);
+
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>

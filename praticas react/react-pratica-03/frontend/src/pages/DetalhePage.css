@@ -1,0 +1,39 @@
+.detalhe-container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 2rem;
+
+  background-color: #f4f4f4;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.detalhe-img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 1.5rem;
+}
+
+.detalhe-container h1 {
+  margin-bottom: 1rem;
+}
+
+.detalhe-container h2 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.detalhe-container ul {
+  list-style: none;
+  padding: 0;
+  line-height: 1.8;
+}
+
+.contato {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 8px;
+}

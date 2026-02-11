@@ -63,3 +63,9 @@
   font-size: 0.85rem;
   color: #444;
 }
+
+.card-link {
+  text-decoration: none;
+  color: inherit;
+}
+
