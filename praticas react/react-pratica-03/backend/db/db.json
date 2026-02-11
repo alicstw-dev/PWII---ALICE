@@ -1,0 +1,74 @@
+{
+  "anuncios": [
+    {
+      "id": "1",
+      "titulo": "HB20 2018",
+      "descricao": "Hyundai HB20 em bom estado, econômico e ideal para uso urbano.",
+      "preco": 55000,
+      "ano": 2018,
+      "quilometragem": 65000,
+      "imagemUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYz5zht4q9waQvC0NN9WBt83AODxTW9C5i7Q&s",
+      "vendedor": {
+        "nome": "Carlos Silva",
+        "telefone": "88999990001",
+        "email": "carlos@gmail.com"
+      }
+    },
+    {
+      "id": "2",
+      "titulo": "Hilux 2019",
+      "descricao": "Toyota Hilux, excelente para trabalho e lazer.",
+      "preco": 155000,
+      "ano": 2019,
+      "quilometragem": 100000,
+      "imagemUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKOMbDHSloHCUwTraTN_wZG3gakJGohThtTg&s",
+      "vendedor": {
+        "nome": "João Pereira",
+        "telefone": "88999990002",
+        "email": "joao@gmail.com"
+      }
+    },
+    {
+      "id": "3",
+      "titulo": "T-Cross 2021",
+      "descricao": "SUV moderno, confortável e com baixa quilometragem.",
+      "preco": 135000,
+      "ano": 2021,
+      "quilometragem": 20000,
+      "imagemUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpK59KUBkRspaGnM81CeEBGHgSj_uuioRoMg&s",
+      "vendedor": {
+        "nome": "Mariana Alves",
+        "telefone": "88999990003",
+        "email": "mariana@gmail.com"
+      }
+    },
+    {
+      "id": "4",
+      "titulo": "Onix 2017",
+      "descricao": "Chevrolet Onix econômico, ótimo para o dia a dia.",
+      "preco": 50000,
+      "ano": 2017,
+      "quilometragem": 80000,
+      "imagemUrl": "https://www.comprecar.com.br/storage/news/featured/uU_8_ZPCB67El1Q.jpg",
+      "vendedor": {
+        "nome": "Ana Costa",
+        "telefone": "88999990004",
+        "email": "ana@gmail.com"
+      }
+    },
+    {
+      "id": "8d4c",
+      "titulo": "Corolla",
+      "descricao": "Semi-Novo",
+      "preco": 150000,
+      "ano": 2015,
+      "quilometragem": 200,
+      "imagemUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhizkkiwiZj7OwXNt3htr9tN8fM8nY65ncrQqPnBgE-JbaYInt2BGuQciSFBRuxsqSPs9tWpTDKxYCaw2A2JJJS7LAq_RdqN-AQPPqp6t5IHqau4m_FulMB1v5OXH3wK7RrEr-XdMkKq_0/s1600/Novo-Corolla-2015+(10).jpg",
+      "vendedor": {
+        "nome": "Alice",
+        "telefone": "(88) 99919-0403",
+        "email": "alice.lima08@aluno.ifce.edu.br"
+      }
+    }
+  ]
+}
